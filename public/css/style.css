@@ -1,0 +1,110 @@
+.item-slick1 {
+    height: 800px !important;
+}
+
+.header-filter {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+/* REMOVE STYLE */
+.remove-style * {
+    padding: revert;
+    margin: revert;
+}
+
+.remove-style p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.remove-style strong {
+    font-weight: bold;
+}
+
+.remove-style ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.remove-style li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.remove-style ol {
+    list-style-type: decimal;
+}
+
+.remove-style ::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+.remove-style ul, li {
+    margin: 0px;
+    list-style-type: revert;
+}
+
+.remove-style blockquote {
+    font-style: italic;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding: 2px 0;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 0;
+    padding-left: 20px;
+    padding-right: 8px;
+    border-left-width: 5px;
+}
+
+
+/* FAQ */
+.faq .accordion {
+    background-color: #FAFAFA;
+    border: 1px solid #E1E1E1 !important;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 1s;
+    font-weight: bolder;
+}
+
+.faq .active, .accordion:hover {
+    background-color: #ccc; 
+}
+  
+.faq .panel {
+    padding: 20px;
+    display: none;
+    background-color: #e4e3e3;
+    overflow: hidden;
+}
+
+.faq .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+.faq .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}

@@ -1,0 +1,3 @@
+table.dataTable>tbody>tr.child ul.dtr-details {
+    white-space: normal !important;
+}
